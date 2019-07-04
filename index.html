@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SeeFood</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.1"> </script>
+    <!-- Load the MobileNet model. -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@1.0.0"> </script>
+    
+</head>
+<body>
+
+    <input type='file' name='image' onchange="readURL(this)" id="imgInp" />
+    <br>
+    <img id="chosen_image" src="#" alt="your image" />
+
+</body>
+</html>
